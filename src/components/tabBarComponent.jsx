@@ -20,19 +20,6 @@ class TabBarComponent extends Component {
   render() {
     return (
       <div>
-        <TabBar marginTop="0%">
-          {this.state.tabTitles.map((tabTitle) => (
-            <TabBar.Link
-              href={tabTitle.navTo}
-              to={tabTitle.navTo}
-              key={tabTitle.id}
-              selected={tabTitle.selected}
-              className="site-tab-header"
-            >
-              <div className="site-tab-header-title">{tabTitle.title}</div>
-            </TabBar.Link>
-          ))}
-        </TabBar>
         <Router>
           <Routes>
             <Route path="/personal" element={<TabPersonalContent />} />
