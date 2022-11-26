@@ -53,12 +53,10 @@ class NavBarComponent extends Component {
 
           <Row>
             <Column span={6}>
-              <Text
-                as="p"
-                fontSize={["small", "medium", "large"]}
-                className="site-header-subtitle"
-              >
-                {this.state.subTitle}
+              <Text fontSize={["small", "medium", "large"]}>
+                <div className="site-header-subtitle-color site-header-subtitle-padding">
+                  {this.state.subTitle}
+                </div>
               </Text>
             </Column>
             <Column span={6}>
@@ -69,9 +67,11 @@ class NavBarComponent extends Component {
                     to={tabTitle.navTo}
                     key={tabTitle.id}
                     selected={tabTitle.selected}
-                    className="site-tab-header"
+                    className="site-flex-margin"
                   >
-                    <div className="site-flex-font">{tabTitle.title}</div>
+                    <div className="site-tab-header site-flex-font">
+                      {tabTitle.title}
+                    </div>
                   </TabBar.Link>
                 ))}
               </TabBar>

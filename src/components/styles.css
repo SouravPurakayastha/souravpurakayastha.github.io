@@ -1,17 +1,24 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  #site-tab-overview-header {
-    padding-left: 0%;
-    padding-right: 0%;
-  }
-
-  .site-tab-header {
-    padding: 0%;
+  .site-flex-margin {
     margin-right: 1rem !important;
   }
 
   .site-flex-font {
     font-size: 50%;
+  }
+
+  .site-header-subtitle-color {
+    color: #ffffff;
+  }
+
+  .site-header-subtitle-padding {
+    padding-bottom: 5%;
+  }
+
+  #site-tab-overview-header {
+    padding-left: 0%;
+    padding-right: 0%;
   }
 
   #site-tab-overview-img {
@@ -20,21 +27,25 @@
     margin-top: 0%;
     aspect-ratio: 1;
   }
+
+  .site-tab-header {
+    padding: 0%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  #site-tab-overview-header {
-    padding-left: 0%;
-    padding-right: 0%;
+  .site-flex-font {
+    font-size: 60%;
   }
 
   .site-tab-header {
     padding: 1%;
   }
 
-  .site-flex-font {
-    font-size: 60%;
+  #site-tab-overview-header {
+    padding-left: 0%;
+    padding-right: 0%;
   }
 
   #site-tab-overview-img {
@@ -47,49 +58,49 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  #site-tab-overview-header {
-    padding-left: 2%;
-    padding-right: 2%;
+  .site-flex-font {
+    font-size: 80%;
   }
 
   .site-tab-header {
     padding: 1%;
   }
 
-  .site-flex-font {
-    font-size: 80%;
+  #site-tab-overview-header {
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  #site-tab-overview-header {
-    padding-left: 2%;
-    padding-right: 2%;
+  .site-flex-font {
+    font-size: 100%;
   }
 
   .site-tab-header {
     padding: 1%;
   }
 
-  .site-flex-font {
-    font-size: 100%;
+  #site-tab-overview-header {
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  #site-tab-overview-header {
-    padding-left: 2%;
-    padding-right: 2%;
+  .site-flex-font {
+    font-size: 100%;
   }
 
   .site-tab-header {
     padding: 1%;
   }
 
-  .site-flex-font {
-    font-size: 100%;
+  #site-tab-overview-header {
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 
@@ -120,6 +131,6 @@
   line-height: normal;
 }
 
-.site-header-subtitle {
-  color: #ffffff !important;
+.site-header-subtitle-color {
+  color: #ffffff;
 }
