@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Divider, Headline, TabBar, Text } from "@freenow/wave";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import TabOverviewContent from "./tabOverviewContent";
 import TabBackendContent from "./tabBackendContent";

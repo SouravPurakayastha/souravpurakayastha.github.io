@@ -8,10 +8,6 @@
     font-size: 50%;
   }
 
-  .site-header-subtitle-color {
-    color: #ffffff;
-  }
-
   .site-header-subtitle-padding {
     padding-bottom: 5%;
   }
@@ -22,10 +18,7 @@
   }
 
   #site-tab-overview-img {
-    width: 50%;
-    margin: 10%;
-    margin-top: 0%;
-    aspect-ratio: 1;
+    width: 6rem;
   }
 
   .site-tab-header {
@@ -39,6 +32,10 @@
     font-size: 60%;
   }
 
+  .site-header-subtitle-padding {
+    padding-bottom: 4%;
+  }
+
   .site-tab-header {
     padding: 1%;
   }
@@ -49,10 +46,7 @@
   }
 
   #site-tab-overview-img {
-    width: 50%;
-    margin: 10%;
-    margin-top: 0%;
-    aspect-ratio: 1;
+    width: 8rem;
   }
 }
 
@@ -62,6 +56,10 @@
     font-size: 80%;
   }
 
+  .site-header-subtitle-padding {
+    padding-bottom: 3%;
+  }
+
   .site-tab-header {
     padding: 1%;
   }
@@ -69,6 +67,10 @@
   #site-tab-overview-header {
     padding-left: 2%;
     padding-right: 2%;
+  }
+
+  #site-tab-overview-img {
+    width: 10rem;
   }
 }
 
@@ -78,6 +80,10 @@
     font-size: 100%;
   }
 
+  .site-header-subtitle-padding {
+    padding-bottom: 2%;
+  }
+
   .site-tab-header {
     padding: 1%;
   }
@@ -85,6 +91,10 @@
   #site-tab-overview-header {
     padding-left: 2%;
     padding-right: 2%;
+  }
+
+  #site-tab-overview-img {
+    width: 12rem;
   }
 }
 
@@ -94,6 +104,10 @@
     font-size: 100%;
   }
 
+  .site-header-subtitle-padding {
+    padding-bottom: 2%;
+  }
+
   .site-tab-header {
     padding: 1%;
   }
@@ -101,6 +115,10 @@
   #site-tab-overview-header {
     padding-left: 2%;
     padding-right: 2%;
+  }
+
+  #site-tab-overview-img {
+    width: 14rem;
   }
 }
 
@@ -118,10 +136,6 @@
   text-align: right;
 }
 
-#site-tab-overview-intro {
-  margin-top: 1%;
-}
-
 .site-header-title {
   color: #ffffff;
   line-height: normal;
@@ -133,4 +147,31 @@
 
 .site-header-subtitle-color {
   color: #ffffff;
+}
+
+#site-tab-overview-intro {
+  margin-top: 1%;
+}
+
+.site-tab-overview-img-common {
+  margin-top: 0%;
+  aspect-ratio: 1;
+  border-radius: 5%;
+}
+
+.site-tab-overview-title {
+  color: #000f1f;
+  line-height: normal;
+}
+
+#site-tab-overview-skills {
+  margin-top: 1%;
+}
+
+.site-tab-bullet {
+  padding: 2%;
+}
+
+.site-tab-bullet-group {
+  background-color: #f1f2f4;
 }

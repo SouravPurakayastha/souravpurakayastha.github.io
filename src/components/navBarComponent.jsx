@@ -1,22 +1,12 @@
 import React, { Component } from "react";
 import "./styles.css";
-import {
-  Card,
-  Headline,
-  Text,
-  Divider,
-  Link,
-  Box,
-  Row,
-  Column,
-  TabBar,
-} from "@freenow/wave";
+import { Card, Headline, Text, Link, Row, Column, TabBar } from "@freenow/wave";
 import TabBarComponent from "./tabBarComponent";
 
 class NavBarComponent extends Component {
   state = {
     title: "Sourav Purakayastha",
-    subTitle: "Senior Backend Developer",
+    subTitle: "Software Engineer",
     tabTitles: [
       { id: 1, title: "Overview", selected: true, navTo: "/" },
       { id: 2, title: "Backend", selected: false, navTo: "/backend" },
@@ -30,8 +20,6 @@ class NavBarComponent extends Component {
     const sticky = {
       position: "sticky",
     };
-
-    const fontSizeSmallMediumLarge = ["small", "medium", "large"];
 
     return (
       <div>
