@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./styles.css";
-import { Card, Headline, Text, Link, Row, Column, TabBar } from "@freenow/wave";
+import { Card, Headline, Text, Row, Column, TabBar } from "@freenow/wave";
 import TabBarComponent from "./tabBarComponent";
 
 class NavBarComponent extends Component {
@@ -9,9 +9,7 @@ class NavBarComponent extends Component {
     subTitle: "Software Engineer",
     tabTitles: [
       { id: 1, title: "Overview", selected: true, navTo: "/" },
-      { id: 2, title: "Backend", selected: false, navTo: "/backend" },
-      { id: 3, title: "Infrastructure", selected: false, navTo: "/infra" },
-      { id: 4, title: "Frontend", selected: false, navTo: "/frontend" },
+      { id: 2, title: "Blog", selected: false, navTo: "/blog" },
       { id: 5, title: "Personal", selected: false, navTo: "/personal" },
     ],
   };
@@ -31,11 +29,15 @@ class NavBarComponent extends Component {
               </Headline>
             </Column>
             <Column span={6} textAlign="right">
-              <Link to="/files/myfile.pdf" target="_blank" download>
+              <a
+                href="https://drive.google.com/file/d/1GpsfsApbXvMq_qN4hRIMW25GIlVQ5SgW/view?usp=share_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="site-header-download site-flex-font">
                   Download
                 </div>
-              </Link>
+              </a>
             </Column>
           </Row>
 
@@ -67,7 +69,7 @@ class NavBarComponent extends Component {
           </Row>
         </Card>
 
-        <Card>
+        <Card id="site-tab-overview-wrapper">
           <TabBarComponent />
         </Card>
       </div>

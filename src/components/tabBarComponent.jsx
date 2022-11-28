@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import TabOverviewContent from "./tabOverviewContent";
-import TabBackendContent from "./tabBackendContent";
-import TabInfraContent from "./tabInfraContent";
+import TabBlogContent from "./tabBlogContent";
 import TabPersonalContent from "./tabPersonalContent";
-import TabFrontendContent from "./tabFrontendContent";
 
 class TabBarComponent extends Component {
   state = {
@@ -22,9 +20,7 @@ class TabBarComponent extends Component {
         <Router>
           <Routes>
             <Route path="/personal" element={<TabPersonalContent />} />
-            <Route path="/frontend" element={<TabFrontendContent />} />
-            <Route path="/infra" element={<TabInfraContent />} />
-            <Route path="/backend" element={<TabBackendContent />} />
+            <Route path="/blog" element={<TabBlogContent />} />
             <Route path="/" element={<TabOverviewContent />} />
           </Routes>
         </Router>

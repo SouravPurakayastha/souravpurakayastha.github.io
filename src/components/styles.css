@@ -8,17 +8,48 @@
     font-size: 50%;
   }
 
+  .site-div-float-left {
+    float: none;
+  }
+
+  .site-div-float-right {
+    float: none;
+  }
+
   .site-header-subtitle-padding {
     padding-bottom: 5%;
   }
 
-  #site-tab-overview-header {
-    padding-left: 0%;
-    padding-right: 0%;
+  #site-tab-overview-wrapper {
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #f1f7fd;
   }
 
   #site-tab-overview-img {
-    width: 6rem;
+    width: 10rem;
+  }
+
+  #site-tab-overview-intro {
+    padding: 5%;
+  }
+
+  #site-tab-overview-intro-highlight-1 {
+    padding: 2%;
+    margin-right: 1%;
+    float: left;
+  }
+
+  #site-tab-overview-intro-highlight-2 {
+    padding: 2%;
+    margin-right: 1%;
+    float: left;
+  }
+
+  #site-tab-overview-intro-highlight-3 {
+    padding: 2%;
+    margin-right: 1%;
+    float: left;
   }
 
   .site-tab-header {
@@ -32,6 +63,14 @@
     font-size: 60%;
   }
 
+  .site-div-float-left {
+    float: none;
+  }
+
+  .site-div-float-right {
+    float: none;
+  }
+
   .site-header-subtitle-padding {
     padding-bottom: 4%;
   }
@@ -40,13 +79,36 @@
     padding: 1%;
   }
 
-  #site-tab-overview-header {
-    padding-left: 0%;
-    padding-right: 0%;
+  #site-tab-overview-wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f1f7fd;
   }
 
   #site-tab-overview-img {
-    width: 8rem;
+    width: 10rem;
+  }
+
+  #site-tab-overview-intro {
+    padding: 5%;
+  }
+
+  #site-tab-overview-intro-highlight-1 {
+    padding: 2%;
+    margin-right: 1%;
+    float: left;
+  }
+
+  #site-tab-overview-intro-highlight-2 {
+    padding: 2%;
+    margin-right: 1%;
+    float: left;
+  }
+
+  #site-tab-overview-intro-highlight-3 {
+    padding: 2%;
+    margin-right: 1%;
+    float: left;
   }
 }
 
@@ -54,6 +116,14 @@
 @media only screen and (min-width: 768px) {
   .site-flex-font {
     font-size: 80%;
+  }
+
+  .site-div-float-left {
+    float: left;
+  }
+
+  .site-div-float-right {
+    float: right;
   }
 
   .site-header-subtitle-padding {
@@ -64,13 +134,39 @@
     padding: 1%;
   }
 
-  #site-tab-overview-header {
-    padding-left: 2%;
-    padding-right: 2%;
+  #site-tab-overview-wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f1f7fd;
   }
 
   #site-tab-overview-img {
     width: 10rem;
+  }
+
+  #site-tab-overview-intro {
+    padding: 2%;
+  }
+
+  #site-tab-overview-intro-highlight-1 {
+    padding: 2%;
+    margin-right: 1%;
+    float: left;
+    margin-left: 10%;
+  }
+
+  #site-tab-overview-intro-highlight-2 {
+    padding: 2%;
+    margin-right: 1%;
+    float: left;
+    margin-left: 10%;
+  }
+
+  #site-tab-overview-intro-highlight-3 {
+    padding: 2%;
+    margin-right: 1%;
+    float: left;
+    margin-left: 10%;
   }
 }
 
@@ -80,6 +176,14 @@
     font-size: 100%;
   }
 
+  .site-div-float-left {
+    float: left;
+  }
+
+  .site-div-float-right {
+    float: right;
+  }
+
   .site-header-subtitle-padding {
     padding-bottom: 2%;
   }
@@ -88,13 +192,39 @@
     padding: 1%;
   }
 
-  #site-tab-overview-header {
-    padding-left: 2%;
-    padding-right: 2%;
+  #site-tab-overview-wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #f1f7fd;
   }
 
   #site-tab-overview-img {
     width: 12rem;
+  }
+
+  #site-tab-overview-intro {
+    padding: 2%;
+  }
+
+  #site-tab-overview-intro-highlight-1 {
+    padding: 2%;
+    margin-right: 1%;
+    float: left;
+    margin-left: 10%;
+  }
+
+  #site-tab-overview-intro-highlight-2 {
+    padding: 2%;
+    margin-right: 1%;
+    float: left;
+    margin-left: 10%;
+  }
+
+  #site-tab-overview-intro-highlight-3 {
+    padding: 2%;
+    margin-right: 1%;
+    float: left;
+    margin-left: 10%;
   }
 }
 
@@ -104,6 +234,14 @@
     font-size: 100%;
   }
 
+  .site-div-float-left {
+    float: left;
+  }
+
+  .site-div-float-right {
+    float: right;
+  }
+
   .site-header-subtitle-padding {
     padding-bottom: 2%;
   }
@@ -112,13 +250,39 @@
     padding: 1%;
   }
 
-  #site-tab-overview-header {
-    padding-left: 2%;
-    padding-right: 2%;
+  #site-tab-overview-wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #f1f7fd;
   }
 
   #site-tab-overview-img {
     width: 14rem;
+  }
+
+  #site-tab-overview-intro {
+    padding: 2%;
+  }
+
+  #site-tab-overview-intro-highlight-1 {
+    padding: 2%;
+    margin-right: 50%;
+    float: left;
+    margin-left: 50%;
+  }
+
+  #site-tab-overview-intro-highlight-2 {
+    padding: 2%;
+    margin-right: 5%;
+    float: left;
+    margin-left: 50%;
+  }
+
+  #site-tab-overview-intro-highlight-3 {
+    padding: 2%;
+    margin-right: 50%;
+    float: left;
+    margin-left: 50%;
   }
 }
 
@@ -129,6 +293,8 @@
   margin-left: 0%;
   margin-top: 0%;
   padding-bottom: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
   background-color: #000f1f;
 }
 
@@ -149,29 +315,83 @@
   color: #ffffff;
 }
 
-#site-tab-overview-intro {
-  margin-top: 1%;
-}
-
 .site-tab-overview-img-common {
   margin-top: 0%;
   aspect-ratio: 1;
-  border-radius: 5%;
+  border-radius: 10%;
 }
 
-.site-tab-overview-title {
-  color: #000f1f;
-  line-height: normal;
+.site-tab-overview-skill-img-common {
+  width: 1rem;
+  margin-top: 0%;
+  aspect-ratio: 1;
+  border-radius: 10%;
+  float: left;
+  margin-right: 2%;
 }
 
-#site-tab-overview-skills {
-  margin-top: 1%;
+/* new */
+.site-tab-headline {
+  font-weight: bold;
+  font-size: xx-large;
 }
 
-.site-tab-bullet {
-  padding: 2%;
+.site-tab-sub-headline {
+  font-weight: normal;
+  font-size: large;
+  color: #637689;
 }
 
-.site-tab-bullet-group {
-  background-color: #f1f2f4;
+.site-tab-topic {
+  font-weight: normal;
+  font-size: medium;
+}
+
+#site-overview-skills-matrix {
+  margin-top: 5%;
+}
+
+.site-overview-skill-topics {
+  margin-left: 5%;
+  margin-right: 1%;
+}
+
+.site-overview-skill-topic-group {
+  width: 100%;
+}
+
+.site-tab-overview-software-skills-group {
+  width: 10rem;
+}
+
+.site-tab-overview-software-skills-icon-name-spacer {
+  width: 0.5rem;
+}
+
+.site-tab-overview-software-skills-icon-name-col-spacer {
+  width: 10rem;
+}
+
+#site-overview-work-experience {
+  margin-top: 5%;
+}
+
+#site-overview-education {
+  margin-top: 5%;
+}
+
+.site-tab-overview-skill-item {
+  width: 10rem;
+}
+
+#site-overview-work-experience-accordion-wrapper-div {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+}
+
+#site-overview-education-accordion-wrapper-div {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
 }
