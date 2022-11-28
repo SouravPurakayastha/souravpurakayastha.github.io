@@ -7,11 +7,7 @@ class NavBarComponent extends Component {
   state = {
     title: "Sourav Purakayastha",
     subTitle: "Software Engineer",
-    tabTitles: [
-      { id: 1, title: "Overview", selected: true, navTo: "/" },
-      { id: 2, title: "Blog", selected: false, navTo: "/blog" },
-      { id: 5, title: "Personal", selected: false, navTo: "/personal" },
-    ],
+    tabTitles: [{ id: 1, title: "Overview", selected: true, navTo: "/" }],
   };
 
   render() {
@@ -23,21 +19,10 @@ class NavBarComponent extends Component {
       <div>
         <Card id="site-header" style={sticky}>
           <Row>
-            <Column span={6} textAlign="left">
+            <Column span={12} textAlign="left">
               <Headline as="h1" fontSize={["large", "x-large", "xx-large"]}>
                 <div className="site-header-title">{this.state.title}</div>
               </Headline>
-            </Column>
-            <Column span={6} textAlign="right">
-              <a
-                href="https://drive.google.com/file/d/1GpsfsApbXvMq_qN4hRIMW25GIlVQ5SgW/view?usp=share_link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="site-header-download site-flex-font">
-                  Download
-                </div>
-              </a>
             </Column>
           </Row>
 
