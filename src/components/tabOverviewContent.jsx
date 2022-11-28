@@ -31,7 +31,12 @@ class TabOverviewContent extends Component {
 
           <div>
             <Card id="site-tab-overview-intro">
-              <div className="site-flex-font site-tab-headline">{title}</div>
+              <div
+                className="site-flex-font site-tab-headline"
+                id="site-overview-title"
+              >
+                {title}
+              </div>
               <Label
                 className="site-div-float-left"
                 variant="success"
@@ -101,16 +106,6 @@ class TabOverviewContent extends Component {
             <Column>
               <div>
                 <img
-                  src={require("./groovy.png")}
-                  alt=""
-                  className="site-tab-overview-img-common site-tab-overview-skill-img-common"
-                />
-                <div className="site-tab-overview-skill-item">Groovy</div>
-              </div>
-            </Column>
-            <Column>
-              <div>
-                <img
                   src={require("./python.png")}
                   alt=""
                   className="site-tab-overview-img-common site-tab-overview-skill-img-common"
@@ -168,16 +163,6 @@ class TabOverviewContent extends Component {
                   className="site-tab-overview-img-common site-tab-overview-skill-img-common"
                 />
                 <div className="site-tab-overview-skill-item">Micronaut</div>
-              </div>
-            </Column>
-            <Column>
-              <div>
-                <img
-                  src={require("./jsf.png")}
-                  alt=""
-                  className="site-tab-overview-img-common site-tab-overview-skill-img-common"
-                />
-                <div className="site-tab-overview-skill-item">JSF</div>
               </div>
             </Column>
           </Row>
@@ -324,16 +309,7 @@ class TabOverviewContent extends Component {
                 </div>
               </div>
             </Column>
-            <Column>
-              <div>
-                <img
-                  src={require("./bamboo.png")}
-                  alt=""
-                  className="site-tab-overview-img-common site-tab-overview-skill-img-common"
-                />
-                <div className="site-tab-overview-skill-item">Bamboo</div>
-              </div>
-            </Column>
+
             <Column>
               <div>
                 <img

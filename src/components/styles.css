@@ -330,6 +330,14 @@
   margin-right: 2%;
 }
 
+.site-tab-personal-img-common {
+  width: 1rem;
+  margin-top: 0%;
+  aspect-ratio: 1;
+  border-radius: 10%;
+  margin-right: 2%;
+}
+
 /* new */
 .site-tab-headline {
   font-weight: bold;
@@ -394,4 +402,12 @@
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 2%;
+}
+
+#site-overview-title {
+  padding-bottom: 1%;
+}
+
+a {
+  color: #096bdb;
 }

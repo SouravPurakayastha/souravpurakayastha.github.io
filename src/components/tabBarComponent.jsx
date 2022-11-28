@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import TabOverviewContent from "./tabOverviewContent";
 import TabBlogContent from "./tabBlogContent";
 import TabPersonalContent from "./tabPersonalContent";
@@ -17,13 +17,13 @@ class TabBarComponent extends Component {
   render() {
     return (
       <div>
-        <Router>
+        <HashRouter>
           <Routes>
             <Route path="/personal" element={<TabPersonalContent />} />
             <Route path="/blog" element={<TabBlogContent />} />
             <Route path="/" element={<TabOverviewContent />} />
           </Routes>
-        </Router>
+        </HashRouter>
       </div>
     );
   }

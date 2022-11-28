@@ -4,7 +4,7 @@ import { Card, Headline, Text, Divider, Label } from "@freenow/wave";
 class tabBlogContent extends Component {
   render() {
     const title = "Blog";
-    const subTitle = "Introspections and playing around with codes.";
+    const subTitle = "Introspections and some playing around with code.";
     return (
       <div>
         <Card level={300}>
@@ -15,18 +15,19 @@ class tabBlogContent extends Component {
         <Divider />
 
         <Card level={100}>
-          <Headline as="h2">Currency and Exchange Rates</Headline>
-          <Text>
-            A nifty API to get European Central Bank currency rates and
-            conversion data
-          </Text>
           <a
             href="https://github.com/SouravPurakayastha/exchangerateservice/blob/master/README.md"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div>View project</div>
+            <Headline as="h2">Currency and Exchange Rates</Headline>
           </a>
+          <Text>
+            A nifty API to get European Central Bank currency rates and
+            conversion data
+          </Text>
+          <br />
+          <br />
 
           <Label mr={1}>RESTApi</Label>
           <Label mr={1}>Spring Boot</Label>
