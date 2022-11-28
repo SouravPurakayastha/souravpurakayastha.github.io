@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.58c1eb05.css",
-    "main.js": "/static/js/main.5c33d67a.js",
+    "main.js": "/static/js/main.3517bd65.js",
     "static/js/787.60bd05b2.chunk.js": "/static/js/787.60bd05b2.chunk.js",
     "static/media/kotlin.png": "/static/media/kotlin.0e22a842339118ef9a10.png",
     "static/media/sourav.png": "/static/media/sourav.76ba2ebe4e2ecf15b8d9.png",
@@ -13,17 +13,16 @@
     "static/media/micronaut.png": "/static/media/micronaut.5275765f6a0da0df27b1.png",
     "static/media/mysql.png": "/static/media/mysql.6671ec853850794ef6eb.png",
     "static/media/so.png": "/static/media/so.0123b8df35f2e7d20bc8.png",
-    "static/media/groovy.png": "/static/media/groovy.3b30673d9c21b865695c.png",
     "static/media/postgres.png": "/static/media/postgres.0f01e72cd7838bd183a5.png",
     "static/media/docker.png": "/static/media/docker.c1f953a3ead577c05d04.png",
     "static/media/cassandra.png": "/static/media/cassandra.1ea429a5f5d37aca79dc.png",
     "index.html": "/index.html",
     "main.58c1eb05.css.map": "/static/css/main.58c1eb05.css.map",
-    "main.5c33d67a.js.map": "/static/js/main.5c33d67a.js.map",
+    "main.3517bd65.js.map": "/static/js/main.3517bd65.js.map",
     "787.60bd05b2.chunk.js.map": "/static/js/787.60bd05b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58c1eb05.css",
-    "static/js/main.5c33d67a.js"
+    "static/js/main.3517bd65.js"
   ]
 }
