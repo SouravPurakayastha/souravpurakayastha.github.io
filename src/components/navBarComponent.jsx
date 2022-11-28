@@ -9,7 +9,7 @@ class NavBarComponent extends Component {
     title: "Sourav Purakayastha",
     subTitle: "Software Engineer",
     tabTitles: [
-      { id: 1, title: "Overview", selected: true, navTo: "/#" },
+      { id: 1, title: "Overview", selected: false, navTo: "/#" },
       { id: 2, title: "Blog", selected: false, navTo: "#/blog" },
       { id: 5, title: "Personal", selected: false, navTo: "#/personal" },
     ],
