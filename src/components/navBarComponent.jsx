@@ -58,7 +58,6 @@ class NavBarComponent extends Component {
                     key={tabTitle.id}
                     selected={tabTitle.selected}
                     className="site-flex-margin"
-                    component={TabPersonalContent}
                   >
                     <div className="site-tab-header site-flex-font">
                       {tabTitle.title}
