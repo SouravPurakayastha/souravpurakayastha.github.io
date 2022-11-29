@@ -448,13 +448,19 @@ class TabOverviewContent extends Component {
                     Key Responsibilities:
                   </div>
                   <div className="site-tab-sub-headline">
-                    1. Developer for GDPR implementation across backend
-                    micro-services and databases schemas for multi tenant
-                    software products
+                    1. Designed and refactored large scale multi-tenant systems
+                    for making them GDPR compliant.
                   </div>
                   <div className="site-tab-sub-headline">
                     2. Systems Design and development of database schemas for
                     multi-tenant software products
+                  </div>
+                  <div className="site-tab-sub-headline">
+                    3. Developed and maintained CI/CD pipelines and backend
+                    integration tests
+                  </div>
+                  <div className="site-tab-sub-headline">
+                    4. Developed Frontend pages using Angular JS
                   </div>
                   <br />
                   <a
@@ -479,8 +485,16 @@ class TabOverviewContent extends Component {
                     Key Responsibilities:
                   </div>
                   <div className="site-tab-sub-headline">
-                    API development of Spring based Restful Web Services for
-                    white label insurance softwares
+                    1. Developed Rest API driven spring web services for white
+                    label insurance softwares.
+                  </div>
+                  <div className="site-tab-sub-headline">
+                    2. Designed database schemas for multi-tenant backend
+                    systems
+                  </div>
+                  <div className="site-tab-sub-headline">
+                    3. Developed Java based ETL tool to onboard new insurance
+                    companies to migrate their customer databases
                   </div>
                   <br />
                   <a
@@ -505,8 +519,9 @@ class TabOverviewContent extends Component {
                     Key Responsibilities:
                   </div>
                   <div className="site-tab-sub-headline">
-                    Restful api web service developments for large scale retail
-                    softwares Sears Holding Corporation of North America
+                    Developed Restful API web services for digital
+                    transformation of large scale systems to handle the retail
+                    transactions of Sears Holding Corporation, North America
                   </div>
                   <br />
                   <a
