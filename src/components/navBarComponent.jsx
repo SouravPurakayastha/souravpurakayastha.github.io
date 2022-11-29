@@ -10,7 +10,20 @@ class NavBarComponent extends Component {
 
     overviewTab: { id: 1, title: "Overview", navTo: "/#" },
     blogTab: { id: 2, title: "Blog", navTo: "#/blog" },
-    personalTab: { id: 5, title: "Personal", navTo: "#/personal" },
+    personalTab: { id: 3, title: "Personal", navTo: "#/personal" },
+
+    overviewTabSelected: true,
+    personalTabSelected: false,
+  };
+
+  handleClick = (id) => {
+    if (id == this.state.overviewTab.id) {
+      this.setState({ overviewTabSelected: true });
+      this.setState({ personalTabSelected: false });
+    } else if (id == this.state.personalTab.id) {
+      this.setState({ overviewTabSelected: false });
+      this.setState({ personalTabSelected: true });
+    }
   };
 
   render() {
@@ -53,8 +66,10 @@ class NavBarComponent extends Component {
               <TabBar marginTop="0%">
                 <TabBar.Link
                   href={this.state.overviewTab.navTo}
+                  onClick={() => this.handleClick(this.state.overviewTab.id)}
                   key={this.state.overviewTab.id}
                   className="site-flex-margin"
+                  selected={this.state.overviewTabSelected}
                 >
                   <div className="site-tab-header site-flex-font">
                     {this.state.overviewTab.title}
@@ -63,8 +78,10 @@ class NavBarComponent extends Component {
 
                 <TabBar.Link
                   href={this.state.personalTab.navTo}
+                  onClick={() => this.handleClick(this.state.personalTab.id)}
                   key={this.state.personalTab.id}
                   className="site-flex-margin"
+                  selected={this.state.personalTabSelected}
                 >
                   <div className="site-tab-header site-flex-font">
                     {this.state.personalTab.title}
