@@ -2,17 +2,15 @@ import React, { Component } from "react";
 import "./styles.css";
 import { Card, Headline, Text, Row, Column, TabBar } from "@freenow/wave";
 import TabBarComponent from "./tabBarComponent";
-import TabPersonalContent from "./tabPersonalContent";
 
 class NavBarComponent extends Component {
   state = {
     title: "Sourav Purakayastha",
     subTitle: "Software Engineer",
-    tabTitles: [
-      { id: 1, title: "Overview", selected: false, navTo: "/#" },
-      { id: 2, title: "Blog", selected: false, navTo: "#/blog" },
-      { id: 5, title: "Personal", selected: false, navTo: "#/personal" },
-    ],
+
+    overviewTab: { id: 1, title: "Overview", navTo: "/#" },
+    blogTab: { id: 2, title: "Blog", navTo: "#/blog" },
+    personalTab: { id: 5, title: "Personal", navTo: "#/personal" },
   };
 
   render() {
@@ -23,6 +21,7 @@ class NavBarComponent extends Component {
     return (
       <div>
         <Card id="site-header" style={sticky}>
+          <h1>{this.state.test}</h1>
           <Row>
             <Column span={6} textAlign="left">
               <Headline as="h1" fontSize={["large", "x-large", "xx-large"]}>
@@ -52,18 +51,25 @@ class NavBarComponent extends Component {
             </Column>
             <Column span={6}>
               <TabBar marginTop="0%">
-                {this.state.tabTitles.map((tabTitle) => (
-                  <TabBar.Link
-                    href={tabTitle.navTo}
-                    key={tabTitle.id}
-                    selected={tabTitle.selected}
-                    className="site-flex-margin"
-                  >
-                    <div className="site-tab-header site-flex-font">
-                      {tabTitle.title}
-                    </div>
-                  </TabBar.Link>
-                ))}
+                <TabBar.Link
+                  href={this.state.overviewTab.navTo}
+                  key={this.state.overviewTab.id}
+                  className="site-flex-margin"
+                >
+                  <div className="site-tab-header site-flex-font">
+                    {this.state.overviewTab.title}
+                  </div>
+                </TabBar.Link>
+
+                <TabBar.Link
+                  href={this.state.personalTab.navTo}
+                  key={this.state.personalTab.id}
+                  className="site-flex-margin"
+                >
+                  <div className="site-tab-header site-flex-font">
+                    {this.state.personalTab.title}
+                  </div>
+                </TabBar.Link>
               </TabBar>
             </Column>
           </Row>

@@ -13,8 +13,12 @@ import {
 
 class TabPersonalContent extends Component {
   render() {
-    const title = "Personal details";
-    const subTitle = "Would be nice to hear from you";
+    const title = "About me";
+    const subTitle_1 =
+      "My name is Sourav and I am a Software Engineer by profession. I am married with a 2 year old son.";
+
+    const subTitle_2 =
+      "In my free time, I enjoy biking, travelling and finding the best flight deals for the next vacation. Would be nice to hear from you";
 
     const address_1 = "Tangstedter Landstraße 6, ";
     const address_2 = "22415 Hamburg, Germany";
@@ -25,7 +29,10 @@ class TabPersonalContent extends Component {
       <div>
         <Card level={300}>
           <Headline>{title}</Headline>
-          <Text>{subTitle}</Text>
+          <Text>{subTitle_1}</Text>
+          <br />
+          <br />
+          <Text>{subTitle_2}</Text>
         </Card>
 
         <Divider />
@@ -60,9 +67,7 @@ class TabPersonalContent extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="site-header-download site-flex-font">
-                  My Stackoverflow Profile
-                </div>
+                <div>My StackOverflow Profile</div>
               </a>
             </Column>
           </Row>
