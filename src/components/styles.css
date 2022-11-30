@@ -55,6 +55,11 @@
   .site-tab-header {
     padding: 0%;
   }
+
+  .site-tab-overview-competencies-icon-name-col-spacer {
+    width: 15rem;
+    padding-bottom: 5%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -109,6 +114,11 @@
     padding: 2%;
     margin-right: 1%;
     float: left;
+  }
+
+  .site-tab-overview-competencies-icon-name-col-spacer {
+    width: 15rem;
+    padding-bottom: 5%;
   }
 }
 
@@ -168,6 +178,11 @@
     float: left;
     margin-left: 10%;
   }
+
+  .site-tab-overview-competencies-icon-name-col-spacer {
+    width: 15rem;
+    padding-bottom: 5%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -226,6 +241,11 @@
     float: left;
     margin-left: 10%;
   }
+
+  .site-tab-overview-competencies-icon-name-col-spacer {
+    width: 15rem;
+    padding-bottom: 5%;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -283,6 +303,11 @@
     margin-right: 50%;
     float: left;
     margin-left: 50%;
+  }
+
+  .site-tab-overview-competencies-icon-name-col-spacer {
+    width: 15rem;
+    padding-bottom: 0%;
   }
 }
 
@@ -353,6 +378,10 @@
 .site-tab-topic {
   font-weight: normal;
   font-size: medium;
+}
+
+#site-overview-core-competencies {
+  margin-top: 5%;
 }
 
 #site-overview-skills-matrix {

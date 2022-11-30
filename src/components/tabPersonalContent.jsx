@@ -10,8 +10,41 @@ import {
   Row,
   Column,
 } from "@freenow/wave";
+import PersonalDetailRow from "./PersonalDetailRow";
+import PersonalContactRow from "./PersonalContactRow";
 
 class TabPersonalContent extends Component {
+  state = {
+    personalDetails: [
+      {
+        personalDetailIcon: require("../images/linkedIn.png"),
+        personalDetailLink: "https://www.linkedin.com/in/sourav-purakayastha/",
+        personalDetailLinkTitle: "My LinkedIn",
+      },
+      {
+        personalDetailIcon: require("../images/so.png"),
+        personalDetailLink:
+          "https://stackoverflow.com/users/4867374/sourav-purakayastha",
+        personalDetailLinkTitle: "My StackOverflow Profile",
+      },
+    ],
+
+    personalContactDetails: [
+      {
+        icon: <HamburgIcon />,
+        contact: "Tangstedter Landstraße 6, 22415 Hamburg, Germany",
+      },
+      {
+        icon: <EnvelopeIcon />,
+        contact: "souravpurakayastha505@gmail.com",
+      },
+      {
+        icon: <PhoneIcon />,
+        contact: "+49-1736159630",
+      },
+    ],
+  };
+
   render() {
     const title = "About me";
     const subTitle_1 =
@@ -20,8 +53,6 @@ class TabPersonalContent extends Component {
     const subTitle_2 =
       "In my free time, I enjoy biking, travelling and finding the best flight deals for the next vacation. Would be nice to hear from you";
 
-    const address_1 = "Tangstedter Landstraße 6, ";
-    const address_2 = "22415 Hamburg, Germany";
     const email_1 = "souravpurakayastha505@gmail.com";
     const phone = "+49-1736159630";
 
@@ -38,63 +69,18 @@ class TabPersonalContent extends Component {
         <Divider />
 
         <div>
-          <Row style={{ padding: "2%" }}>
-            <Column span={12} textAlign="center">
-              <img
-                src={require("./linkedIn.png")}
-                alt=""
-                className="site-tab-overview-img-common site-tab-personal-img-common"
-              />
-              <a
-                href="https://www.linkedin.com/in/sourav-purakayastha/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div>My LinkedIn</div>
-              </a>
-            </Column>
-          </Row>
+          {this.state.personalDetails.map((detail) => (
+            <PersonalDetailRow
+              personalDetailIcon={detail.personalDetailIcon}
+              personalDetailLink={detail.personalDetailLink}
+              personalDetailLinkTitle={detail.personalDetailLinkTitle}
+              key={detail.personalDetailLinkTitle}
+            />
+          ))}
 
-          <Row style={{ padding: "2%" }}>
-            <Column span={12} textAlign="center">
-              <img
-                src={require("./so.png")}
-                alt=""
-                className="site-tab-overview-img-common site-tab-personal-img-common"
-              />
-              <a
-                href="https://stackoverflow.com/users/4867374/sourav-purakayastha"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div>My StackOverflow Profile</div>
-              </a>
-            </Column>
-          </Row>
-
-          <Row style={{ padding: "2%" }}>
-            <Column span={12} textAlign="center">
-              <HamburgIcon />
-              <Text style={{ padding: "1rem" }}>
-                {address_1}
-                {address_2}
-              </Text>
-            </Column>
-          </Row>
-
-          <Row style={{ padding: "2%" }}>
-            <Column span={12} textAlign="center">
-              <EnvelopeIcon />
-              <Text style={{ padding: "1rem" }}>{email_1}</Text>
-            </Column>
-          </Row>
-
-          <Row style={{ padding: "2%" }}>
-            <Column span={12} textAlign="center">
-              <PhoneIcon />
-              <Text style={{ padding: "1rem" }}>{phone}</Text>
-            </Column>
-          </Row>
+          {this.state.personalContactDetails.map((contact) => (
+            <PersonalContactRow icon={contact.icon} contact={contact.contact} />
+          ))}
         </div>
       </div>
     );

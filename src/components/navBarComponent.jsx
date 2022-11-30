@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./styles.css";
 import { Card, Headline, Text, Row, Column, TabBar } from "@freenow/wave";
-import TabBarComponent from "./tabBarComponent";
+import TabBarComponent from "./TabBarComponent";
 
 class NavBarComponent extends Component {
   state = {
