@@ -7,8 +7,6 @@ import {
   HamburgIcon,
   EnvelopeIcon,
   PhoneIcon,
-  Row,
-  Column,
 } from "@freenow/wave";
 import PersonalDetailRow from "./PersonalDetailRow";
 import PersonalContactRow from "./PersonalContactRow";
@@ -52,10 +50,6 @@ class TabPersonalContent extends Component {
 
     const subTitle_2 =
       "In my free time, I enjoy biking, travelling and finding the best flight deals for the next vacation. Would be nice to hear from you";
-
-    const email_1 = "souravpurakayastha505@gmail.com";
-    const phone = "+49-1736159630";
-
     return (
       <div>
         <Card level={300}>

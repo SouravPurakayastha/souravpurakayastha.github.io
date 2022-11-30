@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, Divider, Accordion, Label, Column } from "@freenow/wave";
+import { Card, Divider, Label, Column } from "@freenow/wave";
 import { Row } from "@freenow/wave";
 import { Box } from "@freenow/wave";
 import SkillColumn from "./SkillColumn";

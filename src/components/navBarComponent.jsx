@@ -17,10 +17,10 @@ class NavBarComponent extends Component {
   };
 
   handleClick = (id) => {
-    if (id == this.state.overviewTab.id) {
+    if (id === this.state.overviewTab.id) {
       this.setState({ overviewTabSelected: true });
       this.setState({ personalTabSelected: false });
-    } else if (id == this.state.personalTab.id) {
+    } else if (id === this.state.personalTab.id) {
       this.setState({ overviewTabSelected: false });
       this.setState({ personalTabSelected: true });
     }
