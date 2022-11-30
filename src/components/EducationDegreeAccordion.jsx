@@ -15,7 +15,11 @@ class EducationDegreeAccordion extends Component {
         <div>
           <div className="site-tab-sub-headline">{this.state.degree}</div>
           <div className="site-tab-sub-headline">{this.state.fromTo}</div>
-          <a href={this.state.fromTo} target="_blank" rel="noopener noreferrer">
+          <a
+            href={this.state.instLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div>{this.state.instLinkTitle}</div>
           </a>
         </div>
