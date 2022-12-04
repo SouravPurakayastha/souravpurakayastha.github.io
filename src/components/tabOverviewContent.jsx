@@ -32,7 +32,7 @@ class TabOverviewContent extends Component {
       },
       {
         skillType: "Language",
-        skillName: "ReactJS 😉",
+        skillName: "ReactJS",
         skillIcon: require("../images/skillIcons/javascript.png"),
       },
     ],
@@ -125,8 +125,8 @@ class TabOverviewContent extends Component {
         position: "Senior Developer",
         fromTo: "From: July, 2022 To: Dec, 2022",
         keyResponsibilities: [
-          "1. Design and develop chatbots to automate chat responses for Facebook and Google retail clients",
-          "2. Split legacy monolith service to Kotlin-Micronaut-AWS cloud microservice apps",
+          "1. Design and develop automated chatbots to automate chat responses for Facebook and Google retail clients",
+          "2. Split legacy monolith service to AWS hosted containerized microservices",
         ],
         companyUrl: "https://uberall.com/en-gb",
         companyUrlTitle: "Link to Uberall",
@@ -137,7 +137,8 @@ class TabOverviewContent extends Component {
         fromTo: "From: Apr, 2022 To: July, 2022",
         keyResponsibilities: [
           "1. Scale up legacy backend application for real time VAT processing for Amazon retail sellers in EU",
-          "2. Refactor backend services to run on dockerised containers in AWS EC2",
+          "2. Refactored backend services to run on dockerised containers in Kubernetes clusters",
+          "3. Designed ReactJS components and states for frontend refactoring projects",
         ],
         companyUrl: "https://www.taxdoo.com/en",
         companyUrlTitle: "Link to Taxdoo",
@@ -147,11 +148,12 @@ class TabOverviewContent extends Component {
         position: "Senior Developer",
         fromTo: "From: May, 2018 To: Mar, 2022",
         keyResponsibilities: [
-          "1. Design, develop and maintain Kotlin-SpringBoot microservices for the backend of FREE NOW ride-hailing services.",
-          "2. System design and development of backend architechture and infrastructures for in-house products of FREE NOW with strong focus on service availability, scalability and resilience.",
-          "3. Upgraded the backend architecture for enhancing the securite of user accounts.",
-          "4. Active participation in cross team engagements and knowledge sharing.",
-          "5. Active participation in Scrum ceremonies, code reviews, pair programming and mentoring.",
+          "1. Design, develop and maintain Kotlin-SpringBoot and Python based microservices for the backend of FREE NOW ride-hailing services",
+          "2. System design and development of backend architechture and infrastructures for in-house products of FREE NOW with strong focus on service availability, scalability and resilience",
+          "3. Implemented multi-factor-authentication to enhance the security of user accounts",
+          "4. Developed Frontend apps using ReactJS and TypeScript",
+          "5. Active participation in cross team engagements and knowledge sharing",
+          "6. Active participation in Scrum ceremonies, code reviews, pair programming and mentoring",
         ],
         companyUrl: "https://www.free-now.com/de",
         companyUrlTitle: "Link to FREE NOW",
@@ -161,7 +163,7 @@ class TabOverviewContent extends Component {
         position: "Java Developer",
         fromTo: "From: 2016 To: 2018",
         keyResponsibilities: [
-          "1. Designed and refactored large scale multi-tenant systems for making them GDPR compliant.",
+          "1. Designed and refactored large scale multi-tenant systems for making them GDPR compliant",
           "2. Systems design and development of database schemas for multi-tenant software products",
           "3. Developed and maintained CI/CD pipelines and backend integration tests",
           "4. Developed frontend pages using Angular JS",
@@ -174,7 +176,7 @@ class TabOverviewContent extends Component {
         position: "Java Developer",
         fromTo: "From: 2014 To: 2016",
         keyResponsibilities: [
-          "1. Developed Rest API driven spring web services for white label insurance softwares.",
+          "1. Developed Rest API driven web services for white label insurance softwares",
           "2. Designed database schemas for multi-tenant backend systems",
           "3. Developed Java based ETL tool to onboard new insurance companies to migrate their customer databases",
         ],
@@ -287,12 +289,7 @@ class TabOverviewContent extends Component {
           <Row>
             <Column>
               <div className="site-tab-sub-headline site-tab-overview-competencies-icon-name-col-spacer">
-                Event driven microservice architechture
-              </div>
-            </Column>
-            <Column>
-              <div className="site-tab-sub-headline site-tab-overview-competencies-icon-name-col-spacer">
-                RestApi design
+                Event driven microservices
               </div>
             </Column>
             <Column>
@@ -303,6 +300,11 @@ class TabOverviewContent extends Component {
             <Column>
               <div className="site-tab-sub-headline site-tab-overview-competencies-icon-name-col-spacer">
                 Managing highly scalable and mission critical backend systems
+              </div>
+            </Column>
+            <Column>
+              <div className="site-tab-sub-headline site-tab-overview-competencies-icon-name-col-spacer">
+                Frontend development
               </div>
             </Column>
             <Column>

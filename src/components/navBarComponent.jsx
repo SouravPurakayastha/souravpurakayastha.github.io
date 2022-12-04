@@ -43,7 +43,7 @@ class NavBarComponent extends Component {
             </Column>
             <Column span={6} textAlign="right">
               <a
-                href="https://drive.google.com/file/d/1QgyH2O7fjbAGYqYIUHOzIC-q-3gYTQTO/view?usp=share_link"
+                href="https://drive.google.com/file/d/1ei_PrvBbW_rideh8yWD3v0Aisn7RjVOS/view?usp=share_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
