@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.19d53047.css",
-    "main.js": "/static/js/main.ddca85cb.js",
+    "main.js": "/static/js/main.f3aab2ec.js",
     "static/js/787.60bd05b2.chunk.js": "/static/js/787.60bd05b2.chunk.js",
     "static/media/kotlin.png": "/static/media/kotlin.0e22a842339118ef9a10.png",
     "static/media/sourav.png": "/static/media/sourav.76ba2ebe4e2ecf15b8d9.png",
@@ -10,18 +10,18 @@
     "static/media/kubernetes.png": "/static/media/kubernetes.a026a71144257dadcecf.png",
     "static/media/sqs.png": "/static/media/sqs.a5189aa9c4b3c96e3451.png",
     "static/media/micronaut.png": "/static/media/micronaut.5275765f6a0da0df27b1.png",
-    "static/media/mysql.png": "/static/media/mysql.6671ec853850794ef6eb.png",
     "static/media/so.png": "/static/media/so.0123b8df35f2e7d20bc8.png",
     "static/media/postgres.png": "/static/media/postgres.0f01e72cd7838bd183a5.png",
     "static/media/docker.png": "/static/media/docker.c1f953a3ead577c05d04.png",
     "static/media/cassandra.png": "/static/media/cassandra.1ea429a5f5d37aca79dc.png",
+    "static/media/cosmosDb.png": "/static/media/cosmosDb.455af8f48b2b4ba5799f.png",
     "index.html": "/index.html",
     "main.19d53047.css.map": "/static/css/main.19d53047.css.map",
-    "main.ddca85cb.js.map": "/static/js/main.ddca85cb.js.map",
+    "main.f3aab2ec.js.map": "/static/js/main.f3aab2ec.js.map",
     "787.60bd05b2.chunk.js.map": "/static/js/787.60bd05b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19d53047.css",
-    "static/js/main.ddca85cb.js"
+    "static/js/main.f3aab2ec.js"
   ]
 }
