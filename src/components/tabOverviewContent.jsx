@@ -39,7 +39,7 @@ class TabOverviewContent extends Component {
     frameworkSkills: [
       {
         skillType: "Framework",
-        skillName: "Spring Boot",
+        skillName: "Spring Boot (Reactive)",
         skillIcon: require("../images/skillIcons/springboot.png"),
       },
       {
@@ -61,7 +61,7 @@ class TabOverviewContent extends Component {
       },
       {
         skillType: "Middleware",
-        skillName: "AWS SQS & SNS",
+        skillName: "SQS/SNS/Azure Event bus",
         skillIcon: require("../images/skillIcons/sqs.png"),
       },
       {
@@ -83,8 +83,8 @@ class TabOverviewContent extends Component {
       },
       {
         skillType: "DBs & Storage",
-        skillName: "Mysql",
-        skillIcon: require("../images/skillIcons/mysql.png"),
+        skillName: "Azure CosmosDB",
+        skillIcon: require("../images/skillIcons/cosmosDb.png"),
       },
       {
         skillType: "DBs & Storage",
@@ -219,7 +219,7 @@ class TabOverviewContent extends Component {
     const title =
       "Hi, I am Sourav and I am a Software Engineer, based in Hamburg Germany.";
     const title_2_1 = "Specialised in backend ";
-    const title_2_2 = "architecture and engineering";
+    const title_2_2 = "engineering and infrastructure";
 
     const title_1_1 = "9+ years";
     const title_1_2 = " of experience";
@@ -294,7 +294,7 @@ class TabOverviewContent extends Component {
             </Column>
             <Column>
               <div className="site-tab-sub-headline site-tab-overview-competencies-icon-name-col-spacer">
-                System designs with AWS stack
+                AWS and Azure
               </div>
             </Column>
             <Column>
@@ -304,7 +304,7 @@ class TabOverviewContent extends Component {
             </Column>
             <Column>
               <div className="site-tab-sub-headline site-tab-overview-competencies-icon-name-col-spacer">
-                Frontend development
+                Kubernetes
               </div>
             </Column>
             <Column>

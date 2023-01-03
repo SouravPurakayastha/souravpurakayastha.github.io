@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import TabOverviewContent from "./TabOverviewContent";
-import TabBlogContent from "./TabBlogContent";
 import TabPersonalContent from "./TabPersonalContent";
 
 class TabBarComponent extends Component {

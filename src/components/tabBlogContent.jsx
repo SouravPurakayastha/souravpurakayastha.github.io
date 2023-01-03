@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Card, Headline, Text, Divider, Label } from "@freenow/wave";
 
-class tabBlogContent extends Component {
+class TabBlogContent extends Component {
   render() {
     const title = "Blog";
     const subTitle = "Introspections and some playing around with code.";
@@ -39,4 +39,4 @@ class tabBlogContent extends Component {
   }
 }
 
-export default tabBlogContent;
+export default TabBlogContent;

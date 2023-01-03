@@ -3,10 +3,7 @@ import {
   Card,
   Headline,
   Text,
-  Divider,
-  HamburgIcon,
-  EnvelopeIcon,
-  PhoneIcon,
+  Divider
 } from "@freenow/wave";
 import PersonalDetailRow from "./PersonalDetailRow";
 import PersonalContactRow from "./PersonalContactRow";
@@ -29,16 +26,13 @@ class TabPersonalContent extends Component {
 
     personalContactDetails: [
       {
-        icon: <HamburgIcon />,
-        contact: "Tangstedter Landstraße 6, 22415 Hamburg, Germany",
+        contact: "Address: Tangstedter Landstraße 6, 22415 Hamburg, Germany",
       },
       {
-        icon: <EnvelopeIcon />,
-        contact: "souravpurakayastha505@gmail.com",
+        contact: "Email: souravpurakayastha505@gmail.com",
       },
       {
-        icon: <PhoneIcon />,
-        contact: "+49-1736159630",
+        contact: "Phone: +49-1736159630",
       },
     ],
   };
@@ -49,7 +43,7 @@ class TabPersonalContent extends Component {
       "My name is Sourav and I am a Software Engineer by profession. I am married with a 2 year old son.";
 
     const subTitle_2 =
-      "In my free time, I enjoy biking, travelling and finding the best flight deals for the next vacation. Would be nice to hear from you";
+      "In my free time, I enjoy biking, travelling and finding the best flight deals for the next vacation. Would be nice to hear from you :)";
     return (
       <div>
         <Card level={300}>
@@ -73,7 +67,7 @@ class TabPersonalContent extends Component {
           ))}
 
           {this.state.personalContactDetails.map((contact) => (
-            <PersonalContactRow icon={contact.icon} contact={contact.contact} />
+            <PersonalContactRow contact={contact.contact} />
           ))}
         </div>
       </div>
